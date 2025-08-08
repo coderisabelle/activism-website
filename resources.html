@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accessibility Resources</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+<body>
+  <header>
+    <h1 class="title">Accessibility Resources</h1>
+    <span class="material-symbols-outlined">menu</span>
+    <ul id="nav">
+      <li class="navli">
+        <a href="index.html" class="navcolor">Home</a>
+      </li>
+      <li class="navli">
+        <a href="resources.html" class="navcolor">Resources</a>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <h1 class="reshead">Alt Text Checkers:</h1>
+    <div class="respara">
+    <a href="https://www.seoptimer.com/alt-tag-checker" class="mainlink resourcelink">SEOptimer Image Alt Tag Checker</a>
+    <p>SEOptimer's Alt Text Checker allows you to enter a website's URL and analyze the alt text. After analyzing it, the website will return anything that may need to be edited or added.</p>
+    <a href="https://tiny-img.com/tools/alt-checker/" class="mainlink resourcelink">Tiny Img Alt Text Checker</a>
+    <p>Tiny Img also allows your to enter a website's URL to check its alt text. It will return the photos of the images and let you filter whether you want to look at the images with correct alt text, no alt text, or have a warning. It shows each photo with its alt text and link.</p>
+    <a href="https://chromewebstore.google.com/detail/image-alt-text-viewer/nhmihbneenlkbjjpbimhegikadfleccd?hl=en&pli=1" class="mainlink resourcelink">Google Chrome Image Alt Text Viewer Chrome Extension</a>
+    <p>Instead of using a website, it is also possible to add an extension to your browser using Google's tool. According to Google, their tool shows whether the alt text is missing or empty, or it will display the alt text on the screen next to the photo.</p>
+    </div>
+    <h1 class="reshead">Contrast Checkers:</h1>
+    <div class="respara">
+    <a href="https://webaim.org/resources/contrastchecker/" class="mainlink resourcelink">WebAIM Contrast Checker</a>
+    <p>WebAIM's Contrast checker allows you to use their color picker for two colors, and the website will tell you what Contrast tests it passes or fails.</p>
+    <a href="https://colourcontrast.cc/" class="mainlink resourcelink">Color Contrast Checker</a>
+    <p>This Color Contrast Checker lets you change the background of the website and a few letters at the top for comparison. This website also lets you know what test the colors pass or fail.</p>
+    <a href="https://coolors.co/contrast-checker/112a46-acc8e5" class="mainlink resourcelink">Coolors Color Contrast Checker</a>
+    <p>Coolors Color Contrast Checker lets you enter two color codes and displays them above as a small paragraph. It gives a numbered rating with a certain amount of stars, and it tells you how well it will do with large and small text.</p>
+    </div>
+    <div id="enterbox">
+    <p>Please enter one thing you have learned from this website.</p>
+    <label for="input"></label>
+    <input type="text" id="input">
+    <br>
+    <button id="button">Enter</button>
+    <p id="info"></p>
+    </div>
+  </main>
+  <script type="module" src="script.js" defer></script>
+</body>
+</html>
