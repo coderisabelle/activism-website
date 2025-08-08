@@ -89,3 +89,15 @@ function displayInfo(){
     count = 0;
   }
 }
+
+
+//Code for the menu to show or hide the navigation buttons.
+if(menu){
+  menu.addEventListener("click", function() {
+    if (nav.style.display === 'none' || nav.style.display === '') {
+      nav.style.display = 'flex';
+    } else {
+        nav.style.display = 'none';
+    }
+  });
+}
