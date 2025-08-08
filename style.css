@@ -1,0 +1,267 @@
+/*Overall CSS stylings*/
+
+html {
+  background: linear-gradient(#FFE08A, #fee981, #FFE08A);
+  font-family: Times New Roman;
+}
+
+p, li {
+  font-size: 1.2rem;
+  margin: 2%;
+}
+
+main {
+  line-height: 2rem;
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding: 5% 4% 4% 2%;
+  max-height: 50vh;
+  max-width: 60vw;
+  justify-content: center;
+}
+
+/*Link stylings*/
+
+a {
+  text-decoration: underline;
+  color: #000000;
+}
+
+.mainlink:hover {
+  color: #ffffff;
+  background-color: #4a6d5f;
+}
+
+.resourcelink {
+  font-size: 1.5rem;
+}
+
+/*Overall class styles*/
+
+.reshead {
+  margin: 2.4%;
+  font-family: Garamond, Baskerville, serif;
+  font-size: 2.5rem;
+  line-height: 50px;
+}
+
+.respara {
+  margin: 2.5%;
+  background-color: #A2CCBB;
+  padding: 2%;
+  line-height: 2.75rem;
+}
+
+.headings {
+  text-align: center;
+  text-decoration: underline;
+  margin: auto;
+  padding: 1%;
+  background-color: #A2CCBB;
+  border: 2px solid #000000;
+  max-width: 80vw;
+}
+
+.headings:hover {
+  color: #ffffff;
+  background-color: #4a6d5f;
+  max-width: 80vw;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cite {
+  font-size: 0.9rem;
+  text-align: center;
+  margin: auto;
+  max-width: 42vw;
+}
+
+/*Title styling*/
+
+.title {
+  font-size: 4rem;
+  padding: 1%;
+  font-family: Garamond, Baskerville, serif;
+  max-width: 99vw;
+}
+
+@media screen and (max-width: 740px){
+  .title {
+    font-size: 3rem;
+  }
+}
+
+/*Navbar and menu button stylings*/
+
+.navcolor {
+  background-color: transparent;
+}
+
+.navli {
+  background-color: #A2CCBB;
+  padding: 4%;
+  text-align: center;
+  min-width: 92px;
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  right: 2%;
+  border: 2px solid #A2CCBB;
+  padding: 6px;
+  border-radius: 4px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.material-symbols-outlined:hover {
+  background-color: #A2CCBB;
+  color: #ffffff;
+}
+
+#nav {
+  position: absolute;
+  right: 11.5%;
+  display: none;
+  flex-direction: row;
+  gap: 35%;
+  padding: 1%;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 1475px){
+  #nav {
+    gap: 25%;
+  }
+}
+
+@media screen and (max-width: 1350px){
+  #nav {
+    right: 10%;
+    gap: 10%;
+  }
+}
+
+@media screen and (max-width: 1300px){
+  #nav {
+    top: 120px;
+    right: 25px;
+    gap: 15px;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 770px){
+  .material-symbols-outlined {
+    top: 125px;
+  }
+}
+
+@media screen and (max-width: 770px){
+  #nav {
+    top: 150px;
+    gap: 12px;
+  }
+}
+
+.navli {
+  border: 1px solid #000000;
+}
+
+.navli:hover {
+  border: 2px solid black;
+}
+
+.navli:hover a {
+  color: #ffffff;
+}
+
+/*Stylings for buttons, boxes, and labels*/
+
+label {
+  margin: 1%;
+}
+
+button {
+  margin: 1%;
+  font-family: Georgia;
+}
+
+#button {
+  background-color: #FFFFFF;
+}
+
+.boxes {
+  display: none;
+}
+
+.box {
+  padding: 2%;
+  border-radius: 25px;
+  margin: 2% auto;
+  max-width: 82vw;
+}
+
+.boxpara {
+  padding: 2% 1%;
+}
+
+#info {
+  text-align: center;
+}
+
+#infobutton {
+  display: block;
+  margin: 2rem auto;
+  padding: 1.8%;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #A2CCBB;
+  border-radius: 10px;
+  transition: 0.25s;
+}
+
+#infobutton:hover {
+  box-shadow: 3px 3px;
+}
+
+#enterbox {
+  text-align: center;
+  margin: 2rem auto;
+  background-color: #A2CCBB;
+  max-width: 45vw;
+  padding: 1%;
+}
+
+@media screen and (max-width: 785px){
+  #enterbox {
+    max-width: 60vw;
+  }
+}
+
+@media screen and (max-width: 570px){
+  #enterbox {
+    max-width: 75vw;
+  }
+}
+
+#button {
+  margin: 2%;
+  padding: 2%;
+  font-size: 1.4rem;
+  border-radius: 10px;
+  transition: 0.25s;
+}
+
+#button:hover {
+  box-shadow: 2px 2px;
+}
